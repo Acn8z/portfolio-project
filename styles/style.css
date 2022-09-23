@@ -32,6 +32,20 @@ h2 {
   font-weight: bold;
   margin: 0;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -92,4 +106,19 @@ p {
   .btn-branding-outline {
     margin-bottom: 30px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+}
+.my-picture {
+  width: 603px;
+  border-radius: 6px;
+}
+.about-my-picture {
+  margin-top: 55px;
 }
