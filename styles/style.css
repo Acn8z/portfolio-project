@@ -32,18 +32,18 @@ h2 {
   font-weight: bold;
   margin: 0;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 85px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
 h1 {
@@ -106,11 +106,11 @@ p {
   .btn-branding-outline {
     margin-bottom: 30px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
-  .about-section h1 {
+  .content-container h1 {
     font-size: 44px;
     line-height: 1.5;
   }
@@ -118,4 +118,12 @@ p {
 .my-picture {
   width: 603px;
   border-radius: 6px;
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content p {
+  font-size: 14px;
 }
